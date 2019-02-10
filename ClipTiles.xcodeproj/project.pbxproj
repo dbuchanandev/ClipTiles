@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F813BF622210392900202886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F813BF612210392900202886 /* AppDelegate.swift */; };
+		F813BF642210392900202886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F813BF632210392900202886 /* ViewController.swift */; };
+		F813BF672210392900202886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F813BF652210392900202886 /* Main.storyboard */; };
+		F813BF692210392A00202886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F813BF682210392A00202886 /* Assets.xcassets */; };
+		F813BF6C2210392A00202886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F813BF6A2210392A00202886 /* LaunchScreen.storyboard */; };
+		F813BF772210392B00202886 /* ClipTilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F813BF762210392B00202886 /* ClipTilesTests.swift */; };
+		F813BF822210392B00202886 /* ClipTilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F813BF812210392B00202886 /* ClipTilesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F813BF732210392B00202886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F813BF562210392900202886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F813BF5D2210392900202886;
+			remoteInfo = ClipTiles;
+		};
+		F813BF7E2210392B00202886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F813BF562210392900202886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F813BF5D2210392900202886;
+			remoteInfo = ClipTiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F813BF5E2210392900202886 /* ClipTiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipTiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F813BF612210392900202886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F813BF632210392900202886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F813BF662210392900202886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F813BF682210392A00202886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F813BF6B2210392A00202886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F813BF6D2210392A00202886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F813BF722210392B00202886 /* ClipTilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipTilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F813BF762210392B00202886 /* ClipTilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipTilesTests.swift; sourceTree = "<group>"; };
+		F813BF782210392B00202886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F813BF7D2210392B00202886 /* ClipTilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipTilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F813BF812210392B00202886 /* ClipTilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipTilesUITests.swift; sourceTree = "<group>"; };
+		F813BF832210392B00202886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F813BF5B2210392900202886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813BF6F2210392B00202886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813BF7A2210392B00202886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F813BF552210392900202886 = {
+			isa = PBXGroup;
+			children = (
+				F813BF602210392900202886 /* ClipTiles */,
+				F813BF752210392B00202886 /* ClipTilesTests */,
+				F813BF802210392B00202886 /* ClipTilesUITests */,
+				F813BF5F2210392900202886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F813BF5F2210392900202886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F813BF5E2210392900202886 /* ClipTiles.app */,
+				F813BF722210392B00202886 /* ClipTilesTests.xctest */,
+				F813BF7D2210392B00202886 /* ClipTilesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F813BF602210392900202886 /* ClipTiles */ = {
+			isa = PBXGroup;
+			children = (
+				F813BF612210392900202886 /* AppDelegate.swift */,
+				F813BF632210392900202886 /* ViewController.swift */,
+				F813BF652210392900202886 /* Main.storyboard */,
+				F813BF682210392A00202886 /* Assets.xcassets */,
+				F813BF6A2210392A00202886 /* LaunchScreen.storyboard */,
+				F813BF6D2210392A00202886 /* Info.plist */,
+			);
+			path = ClipTiles;
+			sourceTree = "<group>";
+		};
+		F813BF752210392B00202886 /* ClipTilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F813BF762210392B00202886 /* ClipTilesTests.swift */,
+				F813BF782210392B00202886 /* Info.plist */,
+			);
+			path = ClipTilesTests;
+			sourceTree = "<group>";
+		};
+		F813BF802210392B00202886 /* ClipTilesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F813BF812210392B00202886 /* ClipTilesUITests.swift */,
+				F813BF832210392B00202886 /* Info.plist */,
+			);
+			path = ClipTilesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F813BF5D2210392900202886 /* ClipTiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F813BF862210392B00202886 /* Build configuration list for PBXNativeTarget "ClipTiles" */;
+			buildPhases = (
+				F813BF5A2210392900202886 /* Sources */,
+				F813BF5B2210392900202886 /* Frameworks */,
+				F813BF5C2210392900202886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipTiles;
+			productName = ClipTiles;
+			productReference = F813BF5E2210392900202886 /* ClipTiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F813BF712210392B00202886 /* ClipTilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F813BF892210392B00202886 /* Build configuration list for PBXNativeTarget "ClipTilesTests" */;
+			buildPhases = (
+				F813BF6E2210392B00202886 /* Sources */,
+				F813BF6F2210392B00202886 /* Frameworks */,
+				F813BF702210392B00202886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F813BF742210392B00202886 /* PBXTargetDependency */,
+			);
+			name = ClipTilesTests;
+			productName = ClipTilesTests;
+			productReference = F813BF722210392B00202886 /* ClipTilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F813BF7C2210392B00202886 /* ClipTilesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F813BF8C2210392B00202886 /* Build configuration list for PBXNativeTarget "ClipTilesUITests" */;
+			buildPhases = (
+				F813BF792210392B00202886 /* Sources */,
+				F813BF7A2210392B00202886 /* Frameworks */,
+				F813BF7B2210392B00202886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F813BF7F2210392B00202886 /* PBXTargetDependency */,
+			);
+			name = ClipTilesUITests;
+			productName = ClipTilesUITests;
+			productReference = F813BF7D2210392B00202886 /* ClipTilesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F813BF562210392900202886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Donavon Buchanan";
+				TargetAttributes = {
+					F813BF5D2210392900202886 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F813BF712210392B00202886 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F813BF5D2210392900202886;
+					};
+					F813BF7C2210392B00202886 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F813BF5D2210392900202886;
+					};
+				};
+			};
+			buildConfigurationList = F813BF592210392900202886 /* Build configuration list for PBXProject "ClipTiles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F813BF552210392900202886;
+			productRefGroup = F813BF5F2210392900202886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F813BF5D2210392900202886 /* ClipTiles */,
+				F813BF712210392B00202886 /* ClipTilesTests */,
+				F813BF7C2210392B00202886 /* ClipTilesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F813BF5C2210392900202886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F813BF6C2210392A00202886 /* LaunchScreen.storyboard in Resources */,
+				F813BF692210392A00202886 /* Assets.xcassets in Resources */,
+				F813BF672210392900202886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813BF702210392B00202886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813BF7B2210392B00202886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F813BF5A2210392900202886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F813BF642210392900202886 /* ViewController.swift in Sources */,
+				F813BF622210392900202886 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813BF6E2210392B00202886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F813BF772210392B00202886 /* ClipTilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F813BF792210392B00202886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F813BF822210392B00202886 /* ClipTilesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F813BF742210392B00202886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F813BF5D2210392900202886 /* ClipTiles */;
+			targetProxy = F813BF732210392B00202886 /* PBXContainerItemProxy */;
+		};
+		F813BF7F2210392B00202886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F813BF5D2210392900202886 /* ClipTiles */;
+			targetProxy = F813BF7E2210392B00202886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F813BF652210392900202886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F813BF662210392900202886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F813BF6A2210392A00202886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F813BF6B2210392A00202886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F813BF842210392B00202886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F813BF852210392B00202886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F813BF872210392B00202886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = ClipTiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.ClipTiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F813BF882210392B00202886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = ClipTiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.ClipTiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F813BF8A2210392B00202886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = ClipTilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.ClipTilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipTiles.app/ClipTiles";
+			};
+			name = Debug;
+		};
+		F813BF8B2210392B00202886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = ClipTilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.ClipTilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipTiles.app/ClipTiles";
+			};
+			name = Release;
+		};
+		F813BF8D2210392B00202886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = ClipTilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.ClipTilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClipTiles;
+			};
+			name = Debug;
+		};
+		F813BF8E2210392B00202886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8WL98TTBE;
+				INFOPLIST_FILE = ClipTilesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.donavon.ClipTilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClipTiles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F813BF592210392900202886 /* Build configuration list for PBXProject "ClipTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F813BF842210392B00202886 /* Debug */,
+				F813BF852210392B00202886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F813BF862210392B00202886 /* Build configuration list for PBXNativeTarget "ClipTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F813BF872210392B00202886 /* Debug */,
+				F813BF882210392B00202886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F813BF892210392B00202886 /* Build configuration list for PBXNativeTarget "ClipTilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F813BF8A2210392B00202886 /* Debug */,
+				F813BF8B2210392B00202886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F813BF8C2210392B00202886 /* Build configuration list for PBXNativeTarget "ClipTilesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F813BF8D2210392B00202886 /* Debug */,
+				F813BF8E2210392B00202886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F813BF562210392900202886 /* Project object */;
+}
