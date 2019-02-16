@@ -9,6 +9,6 @@ branches:
 language: swift
 os: osx
 osx_image: xcode10.1
-xcode_project: Routines.xcodeproj
-xcode_scheme: Routines
+xcode_project: ClipTiles.xcodeproj
+xcode_scheme: ClipTiles
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
